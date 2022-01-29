@@ -1,4 +1,4 @@
-.App {
+.Resume {
   background-color: #282c34;
   text-align: center;
   min-height: 100vh;
@@ -7,4 +7,15 @@
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Resume-pdf {
+  width: 90%;
+  min-height: 100vh;
+}
+
+.Resume-img {
+  width: 100vmin;
+  height: auto;
 }
