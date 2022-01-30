@@ -5,6 +5,7 @@ import Resume from './pages/Resume';
 import ChangeLog from './pages/ChangeLog';
 import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
+//Just Launches the App
 function App() {
   return (
     <HashRouter>
