@@ -11,6 +11,7 @@ const useStyles = makeStyles({
     minHeight: "100px",
     minWidth: "100px",
     paddingTop: "1vh",
+    "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
   },
   button: {
     width: "72%",
@@ -25,6 +26,7 @@ const useStyles = makeStyles({
     fontSize: "14px",
     marginTop: "auto",
     height: "5vh",
+    "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
   }
 });
 

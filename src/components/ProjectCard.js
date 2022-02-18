@@ -16,12 +16,6 @@ const useStyles = makeStyles({
     color: "inherit",
     alignItems: "center",
     "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
-    "& .info": {
-      display: "none"
-    },
-    "&:hover .info": {
-      display: "flex"
-    }
   },
   image: {
     width: "90%",
@@ -29,8 +23,7 @@ const useStyles = makeStyles({
     maxHeight: "30vmin",
     objectFit: "contain",
   },
-  info: {
-  },
+
   
 });
 
@@ -39,7 +32,7 @@ export default function ProjectCard(props) {
   return (
     <a className={classes.root} href={props.url}>
       <img src={props.src} className={classes.image} alt=""/>
-      <Box className={classes.info}>
+      <Box>
         <Typography sx={{ fontSize: "4vmin" }}>{props.title}</Typography>
         <Typography sx={{ fontSize: "2vmin" }}>{props.children}</Typography>
       </Box>
