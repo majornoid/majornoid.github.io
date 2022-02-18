@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../ProfileImage.jpg";
+import profileImage from "../images/ProfileImage.jpg";
 import "./Home.css";
 import StandardPage from "../components/StandardPage";
 import { Link } from "react-router-dom";
@@ -12,23 +12,26 @@ export default function Home() {
         sx={{
           display: "flex",
           flexDirection: "row",
-          gap: "8vw",
-          padding: "4vw",
+          flexWrap: "wrap",
+          gap: "4vw",
+          padding: "2vw",
           justifyContent: "center",
+          maxWidth: "90vw",
         }}
       >
         <Box
           sx={{
-            width: "40vw",
+            width: "60vmin",
             textAlign: "left",
           }}
         >
-          <Typography variant="h3">Hi, I'm Morgan</Typography>
+          <Typography variant="h3">Hi, <br/>I'm Morgan</Typography>
+          <br/>
           <Typography>
-            Welcome to my portfolio! This portfolio is a project I recently
+            Welcome to my portfolio! This portfolio is a project I 
             started to better showcase my current and future projects, as well
-            as give me more experience with web development. It is still in very
-            early development, but I have added some of the basic content!
+            as give me more experience with web development. I plan to add more 
+            features and polish as I develop my design skills!
           </Typography>
         </Box>
         <img
@@ -42,11 +45,6 @@ export default function Home() {
           }}
         />
       </Box>
-      <footer className="Home-version">
-        <Link to="/changelog" style={{ color: "#FFF", textDecoration: "none" }}>
-          Alpha 1.1.0
-        </Link>
-      </footer>
     </StandardPage>
   );
 }

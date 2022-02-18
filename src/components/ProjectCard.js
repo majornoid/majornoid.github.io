@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     textDecoration: "none",
     color: "inherit",
     alignItems: "center",
-    "&:hover": { transform: "scale3d(1.08, 1.08, 1)" },
+    "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
     "& .info": {
       display: "none"
     },
