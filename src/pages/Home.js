@@ -14,7 +14,7 @@ export default function Home() {
           flexDirection: "row",
           gap: "8vw",
           padding: "4vw",
-          justifyContent: "space-around",
+          justifyContent: "center",
         }}
       >
         <Box

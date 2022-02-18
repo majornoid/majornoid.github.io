@@ -6,12 +6,13 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   logo: {
-    height: "10vh",
-    paddingRight: "5vmin",
+    height: "8vw",
+    minHeight: "100px",
+    minWidth: "100px",
+    paddingTop: "1vh",
   },
   button: {
-    disabled: "true",
-    background: "linear-gradient(45deg, #0EFB0B 30%, #0FFE83 90%)",
+    width: "72%",
   },
 });
 
@@ -20,26 +21,41 @@ export default function NavBar() {
   return (
     <Box
       sx={{
-        width: "100%",
-        height: "12vh",
+        height: "100vh",
+        width: "10vw",
+        minWidth: "120px",
+        zIndex: "1",
+        position: "fixed",
         display: "flex",
-        flexDirection: "row",
+        flexDirection: "column",
         backgroundColor: "black",
         alignItems: "center",
-        gap: "1.2vw",
+        gap: "2vmax",
+        top: "0",
+        left: "0",
       }}
     >
       <Link to="/">
         <img src={logo} alt="logo" className={classes.logo}></img>
       </Link>
 
-      <Button component={Link} to={"/projects"} className={classes.button}>
-        {" "}
-        Projects{" "}
+      <Button
+        component={Link}
+        to={"/projects"}
+        variant="outlined"
+        className={classes.button}
+        color="secondary"
+      >
+        Projects
       </Button>
-      <Button component={Link} to={"/resume"} className={classes.button}>
-        {" "}
-        Resume{" "}
+      <Button
+        component={Link}
+        to={"/resume"}
+        variant="outlined"
+        className={classes.button}
+        color="secondary"
+      >
+        Resume
       </Button>
     </Box>
   );

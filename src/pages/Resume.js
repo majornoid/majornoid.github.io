@@ -2,7 +2,7 @@ import React from "react";
 import resume from "../MorganJacksonResume.pdf";
 import resumeImg from "../MorganJacksonResume.jpg";
 import "./Resume.css";
-import NavBar from "../components/NavBar";
+import StandardPage from "../components/StandardPage";
 
 export default function Resume() {
   function getResume() {
@@ -26,9 +26,10 @@ export default function Resume() {
     }
   }
   return (
-    <div className="Resume">
-      <NavBar />
-      {getResume()}
-    </div>
+    <StandardPage>
+      <div>
+        {getResume()}
+      </div>
+    </StandardPage>
   );
 }
