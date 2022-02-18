@@ -44,7 +44,7 @@ export default function Home() {
       </Box>
       <footer className="Home-version">
         <Link to="/changelog" style={{ color: "#FFF", textDecoration: "none" }}>
-          Alpha 1.0.1
+          Alpha 1.1.0
         </Link>
       </footer>
     </StandardPage>
