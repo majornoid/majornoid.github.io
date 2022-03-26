@@ -1,6 +1,6 @@
 import React from "react";
-import resume from "../MorganJacksonResume.pdf";
-import resumeImg from "../images/MorganJacksonResume.jpg";
+import resume from "../assets/MorganJacksonResume.pdf";
+import resumeImg from "../assets/MorganJacksonResume.png";
 import "./Resume.css";
 import StandardPage from "../components/StandardPage";
 

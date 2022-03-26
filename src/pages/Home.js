@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../images/ProfileImage.jpg";
+import profileImage from "../assets/ProfileImage.jpg";
 import "./Home.css";
 import StandardPage from "../components/StandardPage";
 import { Link } from "react-router-dom";

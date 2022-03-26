@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../assets/logo.png";
 import { makeStyles } from "@mui/styles";
 import { Box, Button } from "@mui/material";
 import { Link } from "react-router-dom";

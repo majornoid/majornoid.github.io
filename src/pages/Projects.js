@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import URCA from "../images/MattaURCA.png";
-import AoC from "../images/AdventOfCodeLogo.png";
+import URCA from "../assets/MattaURCA.png";
+import AoC from "../assets/AdventOfCodeLogo.png";
 import StandardPage from "../components/StandardPage";
 import ProjectCard from "../components/ProjectCard";
 import { Box } from "@mui/system";
