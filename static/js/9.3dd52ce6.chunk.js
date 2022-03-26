@@ -1,2 +1,0 @@
-(this["webpackJsonpmajornoid.github.io"]=this["webpackJsonpmajornoid.github.io"]||[]).push([[9],{108:function(i,t,o){"use strict";o.r(t),t.default=o.p+"static/media/CHANGELOG.8ff6b298.md"}}]);
-//# sourceMappingURL=9.3dd52ce6.chunk.js.map

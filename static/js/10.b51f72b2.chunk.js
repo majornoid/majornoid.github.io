@@ -1,0 +1,2 @@
+(this["webpackJsonpmbjackson7.github.io"]=this["webpackJsonpmbjackson7.github.io"]||[]).push([[10],{109:function(i,s,t){"use strict";t.r(s),s.default=t.p+"static/media/logo2.e64a360a.png"}}]);
+//# sourceMappingURL=10.b51f72b2.chunk.js.map
