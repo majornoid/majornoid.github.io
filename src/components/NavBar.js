@@ -78,8 +78,8 @@ export default function NavBar() {
           <img src="https://img.shields.io/badge/LinkedIn-blue?style=round-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/morganjackson-68-65-6c-6c-6f/" alt="LinkedIn Link"/>
         </a>
 
-        <a href="https://github.com/majornoid">
-          <img src="https://img.shields.io/github/followers/majornoid?label=GitHub&style=social" alt="GitHub Link"/>
+        <a href="https://github.com/mbjackson7">
+          <img src="https://img.shields.io/github/followers/mbjackson7?label=GitHub&style=social" alt="GitHub Link"/>
         </a>
       </Box>
 
